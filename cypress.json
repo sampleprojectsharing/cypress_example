@@ -1,0 +1,23 @@
+{
+  "video": false,
+  "defaultCommandTimeout": 18000,
+  "taskTimeout": 180000,
+  "pageLoadTimeout": 120000,
+  "requestTimeout": 110000,
+  "responseTimeout": 160000,
+  "viewportWidth": 1280,
+  "viewportHeight": 800,
+  "fileServerFolder": "",
+  "fixturesFolder": "cypress/fixtures",
+  "integrationFolder": "cypress/integration",
+  "pluginsFile": "cypress/plugins",
+  "screenshotsFolder": "mochawesome-report/assets",
+  "supportFile": "cypress/support",
+  "videosFolder": "cypress/videos",
+  "ignoreTestFiles": "*.md",
+  "reporter": "cypress-multi-reporters",
+  "chromeWebSecurity": false,
+  "reporterOptions": {
+    "configFile": "reporterConfig.json"
+  }
+}

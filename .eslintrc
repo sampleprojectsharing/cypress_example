@@ -1,0 +1,31 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "standard",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:cypress/recommended",
+    "plugin:json/recommended",
+    "plugin:prettier/recommended",
+    "prettier/standard"
+  ],
+  "plugins": ["chai-friendly", "prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+
+    "arrow-parens": ["error", "always"],
+    "function-paren-newline": "off",
+    "implicit-arrow-linebreak": "off",
+    "max-len": ["error", { "code": 120 }],
+    "no-use-before-define": ["error", { "functions": false }],
+    "object-curly-newline": ["error", { "consistent": true }],
+    "no-debugger": "off",
+    "no-console": ["error", { "allow": ["warn"] }]
+  },
+  "globals": {
+    "Cypress": true,
+    "cy": true,
+    "DataTransfer": true,
+    "CustomEvent": true
+  }
+}

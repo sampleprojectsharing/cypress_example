@@ -1,0 +1,12 @@
+{
+  "reporterEnabled": "mochawesome",
+  "mochawesomeReporterOptions": {
+    "reportDir": "mochawesome-report",
+    "quiet": true,
+    "overwrite": false,
+    "html": false,
+    "json": true,
+    "timestamp": "yyyymmdd_HHMMss"
+  },
+  "screenshotsFolder": "mochawesome-report/assets"
+}

@@ -1,0 +1,34 @@
+{
+  "baseUrl": "https://test.com",
+  "video": false,
+  "defaultCommandTimeout": 300000,
+  "taskTimeout": 300000,
+  "pageLoadTimeout": 300000,
+  "requestTimeout": 300000,
+  "responseTimeout": 300000,
+  "viewportWidth": 1280,
+  "viewportHeight": 800,
+  "fileServerFolder": "",
+  "fixturesFolder": "cypress/fixtures",
+  "integrationFolder": "cypress/integration",
+  "pluginsFile": "cypress/plugins",
+  "screenshotsFolder": "mochawesome-report/assets",
+  "supportFile": "cypress/support",
+  "videosFolder": "cypress/videos",
+  "ignoreTestFiles": "*.md",
+  "reporter": "cypress-multi-reporters",
+  "chromeWebSecurity": false,
+  "retries": { "openMode": 2, "runMode": 2 },
+  "reporterOptions": {
+    "configFile": "reporterConfig.json"
+  },
+  "env": {
+    "baseApiUrl": "https://test.com",
+    "baseHrUrl": "https://test.com",
+    "testDomain": "test.com",
+    "testUrlPrefix": "https://test.",
+    "testHrUrlPrefix": "https://test.",
+    "companyName": "",
+    "companyId": ""
+  }
+}

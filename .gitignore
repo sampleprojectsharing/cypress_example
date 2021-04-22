@@ -1,0 +1,28 @@
+## Top level files to exclude
+*.log
+.DS_Store
+
+## IDE files to exclude
+.idea
+.vscode
+
+## Top level folders to exclude 
+node_modules
+cypress/.idea
+
+## CypressJS files to exclude
+
+## CypressJS folders to exclude
+cypress/screenshots
+cypress/videos
+
+## CypressJS reporting folders to exclude
+cypress/mochawesome-report
+cypress/reports
+mochawesome-report
+
+## Login && user data files to exclude
+cypress/version2019/fixtures/LoginPage/LoginData.js
+cypress/fixtures/LoginData.js
+cypress/fixtures/companyFixtures/CompanyData.js
+/downloads/
